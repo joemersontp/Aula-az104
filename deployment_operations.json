@@ -1,0 +1,150 @@
+[
+  {
+    "id": "/subscriptions/0e11e6b8-ce2b-4b43-8f2e-588bfd81aaf9/resourceGroups/rg-az104-qa-001/providers/Microsoft.Resources/deployments/CreateVm-canonical.ubuntu-24_04-lts-ubuntu-pro-20251201110741/operations/B6542E4BD572CFE4",
+    "operationId": "B6542E4BD572CFE4",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2025-12-01T14:14:05.4196545Z",
+      "duration": "PT46.2292361S",
+      "trackingId": "82eab053-9372-493c-92da-41f618c89730",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/0e11e6b8-ce2b-4b43-8f2e-588bfd81aaf9/resourceGroups/rg-az104-qa-001/providers/Microsoft.Compute/virtualMachines/vmaz104-1",
+        "resourceType": "Microsoft.Compute/virtualMachines",
+        "resourceName": "vmaz104-1"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/0e11e6b8-ce2b-4b43-8f2e-588bfd81aaf9/resourceGroups/rg-az104-qa-001/providers/Microsoft.Resources/deployments/CreateVm-canonical.ubuntu-24_04-lts-ubuntu-pro-20251201110741/operations/1AC3D79A46AC9383",
+    "operationId": "1AC3D79A46AC9383",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2025-12-01T14:13:59.9081815Z",
+      "duration": "PT44.9721731S",
+      "trackingId": "1021c08e-f33f-4e16-ab59-651cda1b5bc5",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/0e11e6b8-ce2b-4b43-8f2e-588bfd81aaf9/resourceGroups/rg-az104-qa-001/providers/Microsoft.Compute/virtualMachines/vmaz104-2",
+        "resourceType": "Microsoft.Compute/virtualMachines",
+        "resourceName": "vmaz104-2"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/0e11e6b8-ce2b-4b43-8f2e-588bfd81aaf9/resourceGroups/rg-az104-qa-001/providers/Microsoft.Resources/deployments/CreateVm-canonical.ubuntu-24_04-lts-ubuntu-pro-20251201110741/operations/952B9780186E26E5",
+    "operationId": "952B9780186E26E5",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2025-12-01T14:14:05.4196545Z",
+      "duration": "PT6.7040503S",
+      "trackingId": "55b4c5ae-a73a-4a6f-a6fe-3e223dda64d6",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/0e11e6b8-ce2b-4b43-8f2e-588bfd81aaf9/resourceGroups/rg-az104-qa-001/providers/Microsoft.Network/networkInterfaces/vmaz104-158_z1",
+        "resourceType": "Microsoft.Network/networkInterfaces",
+        "resourceName": "vmaz104-158_z1"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/0e11e6b8-ce2b-4b43-8f2e-588bfd81aaf9/resourceGroups/rg-az104-qa-001/providers/Microsoft.Resources/deployments/CreateVm-canonical.ubuntu-24_04-lts-ubuntu-pro-20251201110741/operations/69DC2CC04EA0FD21",
+    "operationId": "69DC2CC04EA0FD21",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2025-12-01T14:13:59.9081815Z",
+      "duration": "PT8.3812S",
+      "trackingId": "0f9f41d2-c12b-4d3f-b672-8528f77b2a1f",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/0e11e6b8-ce2b-4b43-8f2e-588bfd81aaf9/resourceGroups/rg-az104-qa-001/providers/Microsoft.Network/networkInterfaces/vmaz104-1127_z2",
+        "resourceType": "Microsoft.Network/networkInterfaces",
+        "resourceName": "vmaz104-1127_z2"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/0e11e6b8-ce2b-4b43-8f2e-588bfd81aaf9/resourceGroups/rg-az104-qa-001/providers/Microsoft.Resources/deployments/CreateVm-canonical.ubuntu-24_04-lts-ubuntu-pro-20251201110741/operations/F7A71D088CEEE6B0",
+    "operationId": "F7A71D088CEEE6B0",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2025-12-01T14:13:51.2095825Z",
+      "duration": "PT8.5835636S",
+      "trackingId": "a18b2270-2f04-46aa-b1e7-a979bc877595",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/0e11e6b8-ce2b-4b43-8f2e-588bfd81aaf9/resourceGroups/rg-az104-qa-001/providers/Microsoft.Network/networkSecurityGroups/vmaz104-1-nsg",
+        "resourceType": "Microsoft.Network/networkSecurityGroups",
+        "resourceName": "vmaz104-1-nsg"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/0e11e6b8-ce2b-4b43-8f2e-588bfd81aaf9/resourceGroups/rg-az104-qa-001/providers/Microsoft.Resources/deployments/CreateVm-canonical.ubuntu-24_04-lts-ubuntu-pro-20251201110741/operations/3382372E723620AD",
+    "operationId": "3382372E723620AD",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2025-12-01T14:13:51.2095825Z",
+      "duration": "PT8.6177846S",
+      "trackingId": "f8d4a12a-353d-4728-9ac0-2b28f49cd0ee",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/0e11e6b8-ce2b-4b43-8f2e-588bfd81aaf9/resourceGroups/rg-az104-qa-001/providers/Microsoft.Network/publicIpAddresses/vmaz104-1-ip",
+        "resourceType": "Microsoft.Network/publicIpAddresses",
+        "resourceName": "vmaz104-1-ip"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/0e11e6b8-ce2b-4b43-8f2e-588bfd81aaf9/resourceGroups/rg-az104-qa-001/providers/Microsoft.Resources/deployments/CreateVm-canonical.ubuntu-24_04-lts-ubuntu-pro-20251201110741/operations/F6135C96E8888C37",
+    "operationId": "F6135C96E8888C37",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2025-12-01T14:13:51.2095825Z",
+      "duration": "PT8.6237525S",
+      "trackingId": "4d19b53d-dbf6-4864-9f62-6bf7771f862c",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/0e11e6b8-ce2b-4b43-8f2e-588bfd81aaf9/resourceGroups/rg-az104-qa-001/providers/Microsoft.Network/publicIpAddresses/vmaz104-2-ip",
+        "resourceType": "Microsoft.Network/publicIpAddresses",
+        "resourceName": "vmaz104-2-ip"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/0e11e6b8-ce2b-4b43-8f2e-588bfd81aaf9/resourceGroups/rg-az104-qa-001/providers/Microsoft.Resources/deployments/CreateVm-canonical.ubuntu-24_04-lts-ubuntu-pro-20251201110741/operations/599CF89F359C1E5A",
+    "operationId": "599CF89F359C1E5A",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2025-12-01T14:13:51.2095825Z",
+      "duration": "PT14.1495327S",
+      "trackingId": "de89c71f-af39-47df-910a-232021e6dfe4",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/0e11e6b8-ce2b-4b43-8f2e-588bfd81aaf9/resourceGroups/rg-az104-qa-001/providers/Microsoft.Resources/deployments/network-interface-associated-virtual-network-20251201111334",
+        "resourceType": "Microsoft.Resources/deployments",
+        "resourceName": "network-interface-associated-virtual-network-20251201111334"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/0e11e6b8-ce2b-4b43-8f2e-588bfd81aaf9/resourceGroups/rg-az104-qa-001/providers/Microsoft.Resources/deployments/CreateVm-canonical.ubuntu-24_04-lts-ubuntu-pro-20251201110741/operations/08584370084624107208",
+    "operationId": "08584370084624107208",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2025-12-01T14:14:51.9534366Z",
+      "duration": "PT0.2579712S",
+      "trackingId": "9d7e0c37-5577-4b42-bf4d-a656499ef79b",
+      "statusCode": "OK"
+    }
+  }
+]

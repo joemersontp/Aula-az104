@@ -1,0 +1,346 @@
+{
+  "id": "/subscriptions/0e11e6b8-ce2b-4b43-8f2e-588bfd81aaf9/resourceGroups/rg-az104-qa-001/providers/Microsoft.Resources/deployments/CreateVm-canonical.ubuntu-24_04-lts-ubuntu-pro-20251201110741",
+  "name": "CreateVm-canonical.ubuntu-24_04-lts-ubuntu-pro-20251201110741",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "primaryResourceId": "/subscriptions/0e11e6b8-ce2b-4b43-8f2e-588bfd81aaf9/resourcegroups/rg-az104-qa-001/providers/Microsoft.Compute/virtualMachines/vmaz104-1",
+    "marketplaceItemId": "Microsoft.VirtualMachine",
+    "provisioningHash": "SolutionProvider"
+  },
+  "properties": {
+    "templateHash": "3132991110140150050",
+    "parameters": {
+      "location": {
+        "type": "String",
+        "value": "westeurope"
+      },
+      "networkInterfaceName1": {
+        "type": "String",
+        "value": "vmaz104-158_z1"
+      },
+      "enableAcceleratedNetworking": {
+        "type": "Bool",
+        "value": true
+      },
+      "networkInterfaceName2": {
+        "type": "String",
+        "value": "vmaz104-1127_z2"
+      },
+      "networkSecurityGroupName": {
+        "type": "String",
+        "value": "vmaz104-1-nsg"
+      },
+      "networkSecurityGroupRules": {
+        "type": "Array",
+        "value": []
+      },
+      "subnetId": {
+        "type": "String",
+        "value": "/subscriptions/0e11e6b8-ce2b-4b43-8f2e-588bfd81aaf9/resourceGroups/rg-az104-qa-001/providers/Microsoft.Network/virtualNetworks/vnet-westeurope/subnets/snet-westeurope-1"
+      },
+      "publicIpAddressName1": {
+        "type": "String",
+        "value": "vmaz104-1-ip"
+      },
+      "publicIpAddressType": {
+        "type": "String",
+        "value": "Static"
+      },
+      "publicIpAddressSku": {
+        "type": "String",
+        "value": "Standard"
+      },
+      "pipDeleteOption": {
+        "type": "String",
+        "value": "Detach"
+      },
+      "publicIpAddressName2": {
+        "type": "String",
+        "value": "vmaz104-2-ip"
+      },
+      "virtualMachineName": {
+        "type": "String",
+        "value": "vmaz104-1"
+      },
+      "virtualMachineName1": {
+        "type": "String",
+        "value": "vmaz104-1"
+      },
+      "virtualMachineComputerName1": {
+        "type": "String",
+        "value": "vmaz104-1"
+      },
+      "virtualMachineRG": {
+        "type": "String",
+        "value": "rg-az104-qa-001"
+      },
+      "osDiskType": {
+        "type": "String",
+        "value": "Premium_LRS"
+      },
+      "osDiskDeleteOption": {
+        "type": "String",
+        "value": "Delete"
+      },
+      "diskControllerType": {
+        "type": "String",
+        "value": "NVMe"
+      },
+      "virtualMachineSize": {
+        "type": "String",
+        "value": "Standard_D2als_v6"
+      },
+      "nicDeleteOption": {
+        "type": "String",
+        "value": "Detach"
+      },
+      "hibernationEnabled": {
+        "type": "Bool",
+        "value": false
+      },
+      "adminUsername": {
+        "type": "String",
+        "value": "az104admin"
+      },
+      "adminPassword": {
+        "type": "SecureString"
+      },
+      "enablePeriodicAssessment": {
+        "type": "String",
+        "value": "ImageDefault"
+      },
+      "virtualMachineName2": {
+        "type": "String",
+        "value": "vmaz104-2"
+      },
+      "virtualMachineComputerName2": {
+        "type": "String",
+        "value": "vmaz104-2"
+      },
+      "virtualMachine1Zone": {
+        "type": "String",
+        "value": "1"
+      },
+      "virtualMachine2Zone": {
+        "type": "String",
+        "value": "2"
+      },
+      "vnetLocation": {
+        "type": "String",
+        "value": "westeurope"
+      },
+      "vnetExtendedLocation": {
+        "type": "Object",
+        "value": {}
+      },
+      "vnetVirtualNetworkName": {
+        "type": "String",
+        "value": "vnet-westeurope"
+      },
+      "vnetTagsByResource": {
+        "type": "Object",
+        "value": {
+          "Area": "Study",
+          "Environment": "QA"
+        }
+      },
+      "vnetProperties": {
+        "type": "Object",
+        "value": {
+          "subnets": [
+            {
+              "name": "snet-westeurope-1",
+              "properties": {
+                "addressPrefixes": [
+                  "172.17.0.0/24"
+                ]
+              }
+            }
+          ],
+          "addressSpace": {
+            "addressPrefixes": [
+              "172.17.0.0/16"
+            ]
+          }
+        }
+      },
+      "vnetNatGatewaysWithNewPublicIpAddress": {
+        "type": "Array",
+        "value": []
+      },
+      "vnetNatGatewaysWithoutNewPublicIpAddress": {
+        "type": "Array",
+        "value": []
+      },
+      "vnetNatGatewayPublicIpAddressesNewNames": {
+        "type": "Array",
+        "value": []
+      },
+      "vnetNetworkSecurityGroupsNew": {
+        "type": "Array",
+        "value": []
+      },
+      "vnetResourceGroupName": {
+        "type": "String",
+        "value": "rg-az104-qa-001"
+      },
+      "vnetDeploymentName": {
+        "type": "String",
+        "value": "network-interface-associated-virtual-network-20251201111334"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2025-12-01T14:14:52.3832743Z",
+    "duration": "PT1M9.3254338S",
+    "correlationId": "d282c36a-a454-42d6-8892-1d1250125532",
+    "providers": [
+      {
+        "namespace": "Microsoft.Network",
+        "resourceTypes": [
+          {
+            "resourceType": "networkInterfaces",
+            "locations": [
+              "westeurope"
+            ]
+          },
+          {
+            "resourceType": "networkSecurityGroups",
+            "locations": [
+              "westeurope"
+            ]
+          },
+          {
+            "resourceType": "publicIpAddresses",
+            "locations": [
+              "westeurope"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.Compute",
+        "resourceTypes": [
+          {
+            "resourceType": "virtualMachines",
+            "locations": [
+              "westeurope"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.Resources",
+        "resourceTypes": [
+          {
+            "resourceType": "deployments",
+            "locations": [
+              null
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/0e11e6b8-ce2b-4b43-8f2e-588bfd81aaf9/resourceGroups/rg-az104-qa-001/providers/Microsoft.Network/networkSecurityGroups/vmaz104-1-nsg",
+            "resourceType": "Microsoft.Network/networkSecurityGroups",
+            "resourceName": "vmaz104-1-nsg"
+          },
+          {
+            "id": "/subscriptions/0e11e6b8-ce2b-4b43-8f2e-588bfd81aaf9/resourceGroups/rg-az104-qa-001/providers/Microsoft.Network/publicIpAddresses/vmaz104-1-ip",
+            "resourceType": "Microsoft.Network/publicIpAddresses",
+            "resourceName": "vmaz104-1-ip"
+          },
+          {
+            "id": "/subscriptions/0e11e6b8-ce2b-4b43-8f2e-588bfd81aaf9/resourceGroups/rg-az104-qa-001/providers/Microsoft.Resources/deployments/network-interface-associated-virtual-network-20251201111334",
+            "resourceType": "Microsoft.Resources/deployments",
+            "resourceName": "network-interface-associated-virtual-network-20251201111334"
+          }
+        ],
+        "id": "/subscriptions/0e11e6b8-ce2b-4b43-8f2e-588bfd81aaf9/resourceGroups/rg-az104-qa-001/providers/Microsoft.Network/networkInterfaces/vmaz104-158_z1",
+        "resourceType": "Microsoft.Network/networkInterfaces",
+        "resourceName": "vmaz104-158_z1"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/0e11e6b8-ce2b-4b43-8f2e-588bfd81aaf9/resourceGroups/rg-az104-qa-001/providers/Microsoft.Network/networkSecurityGroups/vmaz104-1-nsg",
+            "resourceType": "Microsoft.Network/networkSecurityGroups",
+            "resourceName": "vmaz104-1-nsg"
+          },
+          {
+            "id": "/subscriptions/0e11e6b8-ce2b-4b43-8f2e-588bfd81aaf9/resourceGroups/rg-az104-qa-001/providers/Microsoft.Network/publicIpAddresses/vmaz104-2-ip",
+            "resourceType": "Microsoft.Network/publicIpAddresses",
+            "resourceName": "vmaz104-2-ip"
+          }
+        ],
+        "id": "/subscriptions/0e11e6b8-ce2b-4b43-8f2e-588bfd81aaf9/resourceGroups/rg-az104-qa-001/providers/Microsoft.Network/networkInterfaces/vmaz104-1127_z2",
+        "resourceType": "Microsoft.Network/networkInterfaces",
+        "resourceName": "vmaz104-1127_z2"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/0e11e6b8-ce2b-4b43-8f2e-588bfd81aaf9/resourceGroups/rg-az104-qa-001/providers/Microsoft.Network/networkInterfaces/vmaz104-158_z1",
+            "resourceType": "Microsoft.Network/networkInterfaces",
+            "resourceName": "vmaz104-158_z1"
+          }
+        ],
+        "id": "/subscriptions/0e11e6b8-ce2b-4b43-8f2e-588bfd81aaf9/resourceGroups/rg-az104-qa-001/providers/Microsoft.Compute/virtualMachines/vmaz104-1",
+        "resourceType": "Microsoft.Compute/virtualMachines",
+        "resourceName": "vmaz104-1"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/0e11e6b8-ce2b-4b43-8f2e-588bfd81aaf9/resourceGroups/rg-az104-qa-001/providers/Microsoft.Network/networkInterfaces/vmaz104-1127_z2",
+            "resourceType": "Microsoft.Network/networkInterfaces",
+            "resourceName": "vmaz104-1127_z2"
+          }
+        ],
+        "id": "/subscriptions/0e11e6b8-ce2b-4b43-8f2e-588bfd81aaf9/resourceGroups/rg-az104-qa-001/providers/Microsoft.Compute/virtualMachines/vmaz104-2",
+        "resourceType": "Microsoft.Compute/virtualMachines",
+        "resourceName": "vmaz104-2"
+      }
+    ],
+    "outputs": {
+      "adminUsername": {
+        "type": "String",
+        "value": "az104admin"
+      }
+    },
+    "outputResources": [
+      {
+        "id": "/subscriptions/0e11e6b8-ce2b-4b43-8f2e-588bfd81aaf9/resourceGroups/rg-az104-qa-001/providers/Microsoft.Compute/virtualMachines/vmaz104-1"
+      },
+      {
+        "id": "/subscriptions/0e11e6b8-ce2b-4b43-8f2e-588bfd81aaf9/resourceGroups/rg-az104-qa-001/providers/Microsoft.Compute/virtualMachines/vmaz104-2"
+      },
+      {
+        "id": "/subscriptions/0e11e6b8-ce2b-4b43-8f2e-588bfd81aaf9/resourceGroups/rg-az104-qa-001/providers/Microsoft.Network/networkInterfaces/vmaz104-1127_z2"
+      },
+      {
+        "id": "/subscriptions/0e11e6b8-ce2b-4b43-8f2e-588bfd81aaf9/resourceGroups/rg-az104-qa-001/providers/Microsoft.Network/networkInterfaces/vmaz104-158_z1"
+      },
+      {
+        "id": "/subscriptions/0e11e6b8-ce2b-4b43-8f2e-588bfd81aaf9/resourceGroups/rg-az104-qa-001/providers/Microsoft.Network/networkSecurityGroups/vmaz104-1-nsg"
+      },
+      {
+        "id": "/subscriptions/0e11e6b8-ce2b-4b43-8f2e-588bfd81aaf9/resourceGroups/rg-az104-qa-001/providers/Microsoft.Network/publicIpAddresses/vmaz104-1-ip"
+      },
+      {
+        "id": "/subscriptions/0e11e6b8-ce2b-4b43-8f2e-588bfd81aaf9/resourceGroups/rg-az104-qa-001/providers/Microsoft.Network/publicIpAddresses/vmaz104-2-ip"
+      },
+      {
+        "id": "/subscriptions/0e11e6b8-ce2b-4b43-8f2e-588bfd81aaf9/resourceGroups/rg-az104-qa-001/providers/Microsoft.Network/virtualNetworks/vnet-westeurope"
+      }
+    ],
+    "validationLevel": "Template"
+  }
+}
